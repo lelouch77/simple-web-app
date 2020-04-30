@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>CSE Symposium</title>
+    <!-- Metro 4 -->
+    <link rel="stylesheet" href="./style/metro-all.min.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="grid" style="height:100%;">
+            <header class="row">
+                <h1>
+                    Registration Form
+                </h1>
+            </header>
+            <div class="row">
+                <div class="cell-3">
+                    Name :
+                </div>
+                <div class="cell-3">
+                    <input type="text" id="name" data-role="input">
+                </div>
+            </div>
+            <div class="row">
+                <div class="cell-3">
+                    College :
+                </div>
+                <div class="cell-3">
+                    <input type="text" id="college" data-role="input">
+                </div>
+            </div>
+            <div class="row">
+                <div class="cell-3">
+                    Department :
+                </div>
+                <div class="cell-3">
+                    <select data-role="select" id="department">
+                        <option>CSE</option>
+                        <option>IT</option>
+                        <option>ECE</option>
+                        <option>E&I</option>
+                        <option>EEE</option>
+                        <option>Mech</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row">
+                <div class="cell-3">
+                    Email :
+                </div>
+                <div class="cell-3">
+                    <input type="email" id="email" data-role="input">
+                </div>
+            </div>
+        </div>
+        <button class="button primary" id="register">Register</button>
+    </div>
+    <script src="./src/add.js"></script>
+</body>
+
+</html>
